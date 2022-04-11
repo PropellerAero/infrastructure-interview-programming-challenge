@@ -16,7 +16,7 @@ You are expected to use the AWS Python client library `boto3`. You may reference
 
 We have implemented request stubbing in `boto3` so that you don't need to make any actual calls to AWS. Once you have written your solution we will provide you with the stubbed values to test against.
 
-The secret store has been simulated in code and can be accessed by importing the `list_secrets`, `get_secret` and `set_secret` functions in `secrets.py`.
+The secret store has been simulated in code and can be accessed by importing the `list_secrets`, `get_secret` and `set_secret` functions in `secrets.py`. You may assume that any applications using a secret instantly start using the new value when `set_secret` is called.
 
 The format of the keys in the secret store is `<app-name>/<environment>/<secret-name>`. The AWS user name for each set of IAM access keys is `<app-name>/<environment>`.
 

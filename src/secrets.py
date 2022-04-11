@@ -34,6 +34,7 @@ def get_secret(key: str) -> str:
 
 def set_secret(key: str, value: str) -> None:
     """
-    Sets the value of the secret stored under the given key.
+    Sets the value of the secret stored under the given key. You may assume that this method also
+    ensures that any applications using the secret instantly start using the new value.
     """
     SECRET_STORE[key] = value
