@@ -12,11 +12,13 @@ Your task is to implement a script that will read all the secrets from a secret 
 
 A scaffold for this script has already been provided for you in this repository. You will need to implement the missing functionality.
 
-The secret store has been simulated in code and can be accessed by importing the `list_secrets`, `get_secret` and `set_secret` functions in `secrets.py`.
-
 You are expected to use the AWS Python client library `boto3`. You may reference the documentation for the library which can be found here: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 
 We have implemented request stubbing in `boto3` so that you don't need to make any actual calls to AWS. Once you have written your solution we will provide you with the stubbed values to test against.
+
+The secret store has been simulated in code and can be accessed by importing the `list_secrets`, `get_secret` and `set_secret` functions in `secrets.py`.
+
+The format of the keys in the secret store is `<app-name>/<environment>/<secret-name>`. The AWS user name for each set of IAM access keys is `<app-name>/<environment>`.
 
 ## Getting started
 
@@ -36,5 +38,6 @@ We have implemented request stubbing in `boto3` so that you don't need to make a
 
 - Ability to read and interpret technical documentation
 - Ability to reason through a problem and communicate through the solution
+- Ability to state and confirm assumptions
 - Ability to write idiomatic python
 - Ability to debug issues as they arise
