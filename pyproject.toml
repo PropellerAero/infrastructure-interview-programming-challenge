@@ -6,7 +6,7 @@ authors = ["Keat Tang <keat@propelleraero.com.au>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-boto3 = "^1.21.34"
+boto3 = "^1.33.13"
 
 [tool.poetry.dev-dependencies]
 boto3-stubs = {extras = ["iam"], version = "^1.21.34"}
