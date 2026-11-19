@@ -1,6 +1,6 @@
 # infrastructure-interview-programming-challenge
 
-This repository contains the in-interview programming challenge for infrastructure engineers. Candidates will be given access to this repository prior to the interview and will be required to complete the missing parts of the program during the interview. Candidates will be able to use their own computer and are allowed to use the internet to look up documentation.
+This repository contains the in-interview programming challenge for infrastructure engineers. Candidates will be given access to this repository prior to the interview and will be required to complete the missing parts of the program during the interview. Candidates will be able to use their own computer and are allowed to use the internet to look up documentation. Candidates are expected to complete the challenge independently and rely on their own technical knowledge, problem-solving and programming skills rather than AI-generated solutions.
 
 ## Background
 
